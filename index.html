@@ -9,11 +9,11 @@
 <style>
 /* ------------------ GENERAL ------------------ */
 body { 
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-background-color: #f0f4f8; /* Arrière-plan plus doux */
-margin: 0; 
-padding: 30px; 
-color: #333; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  background-color: #f0f4f8; /* Arrière-plan plus doux */
+  margin: 0; 
+  padding: 30px; 
+  color: #333; 
 }
 .container { max-width: 1200px; margin: 0 auto; }
 h1 { color: #1c5d9a; text-align: center; margin-bottom: 30px; font-weight: 600; font-size: 2.2em; }
@@ -46,71 +46,71 @@ h3 { color: #1c5d9a; margin-top: 20px; border-bottom: 2px solid #e0e6eb; padding
 
 /* ------------------ UPLOAD SECTION ------------------ */
 .upload-section { 
-background: #ffffff; 
-border-radius: 12px; 
-box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
-padding: 30px; 
-text-align: center; 
-margin-bottom: 40px; 
-border: 2px dashed #a8c1da;
+  background: #ffffff; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+  padding: 30px; 
+  text-align: center; 
+  margin-bottom: 40px; 
+  border: 2px dashed #a8c1da;
 }
 input[type="file"] { margin: 15px 0; display: block; margin-left: auto; margin-right: auto; }
 label { font-size: 1.1em; font-weight: 500; color: #1c5d9a; }
 
 /* ------------------ GLOBAL BUTTON STYLES ------------------ */
 button#generateBtn {
-background-color: #007bff;
-color: white;
-border: none;
-padding: 12px 25px;
-border-radius: 8px;
-cursor: pointer;
-font-size: 1em;
-font-weight: 600;
-transition: background-color 0.3s, transform 0.2s;
-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 button#generateBtn:hover { 
-background-color: #0056b3; 
-transform: translateY(-1px);
+  background-color: #0056b3; 
+  transform: translateY(-1px);
 }
 
-/* ------------------ NAVIGATION BUTTONS (Ville, Adresse, Logement) ------------------ */
+/* ------------------ NAVIGATION BUTTONS (Ville, Patrimoine, Logement) ------------------ */
 .navigation-container { 
-margin-bottom: 30px; 
-padding: 20px; 
-border-radius: 12px; 
-background-color: #ffffff; /* Fond blanc pour les sélections */
-box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 30px; 
+  padding: 20px; 
+  border-radius: 12px; 
+  background-color: #ffffff; /* Fond blanc pour les sélections */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 .navigation-container button {
-background-color: #e0f7fa; /* Bleu très clair */
-color: #007bff; /* Bleu principal */
-border: 1px solid #b3e5fc;
-font-weight: 500;
-padding: 10px 18px;
-border-radius: 20px; /* Boutons arrondis (Pill buttons) */
-margin: 8px 6px 8px 0; /* Plus d'espace entre les boutons */
-transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  background-color: #e0f7fa; /* Bleu très clair */
+  color: #007bff; /* Bleu principal */
+  border: 1px solid #b3e5fc;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 20px; /* Boutons arrondis (Pill buttons) */
+  margin: 8px 6px 8px 0; /* Plus d'espace entre les boutons */
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
 }
 .navigation-container button:hover { 
-background-color: #b3e5fc; 
+  background-color: #b3e5fc; 
 }
 .navigation-container button.active {
-background-color: #1c5d9a; /* Bleu foncé */
-color: white;
-box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-border-color: #1c5d9a;
+  background-color: #1c5d9a; /* Bleu foncé */
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border-color: #1c5d9a;
 }
 
 /* Style de la pastille (petit rond de couleur) */
 .status-pill {
-display: inline-block;
-width: 12px;
-height: 12px;
-border-radius: 50%;
-margin-right: 8px;
-transform: translateY(1px);
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+  transform: translateY(1px);
 }
 .status-pill.present { background-color: #dc3545; } /* Rouge */
 .status-pill.suspect { background-color: #ffc107; } /* Jaune */
@@ -119,12 +119,12 @@ transform: translateY(1px);
 
 /* ------------------ LOGEMENT DETAIL ------------------ */
 .logement { 
-background: #ffffff; 
-border-radius: 15px; 
-box-shadow: 0 6px 20px rgba(0,0,0,0.1); 
-margin-bottom: 40px; 
-padding: 30px;
-border-left: 5px solid #1c5d9a; /* Touche de couleur sur le côté */
+  background: #ffffff; 
+  border-radius: 15px; 
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1); 
+  margin-bottom: 40px; 
+  padding: 30px;
+  border-left: 5px solid #1c5d9a; /* Touche de couleur sur le côté */
 }
 .logement h2 { color: #1c5d9a; margin-top: 0; font-size: 1.8em; }
 .infos { font-size: 1em; color: #555; margin-bottom: 20px; line-height: 1.6em; padding-left: 10px; }
@@ -133,12 +133,12 @@ border-left: 5px solid #1c5d9a; /* Touche de couleur sur le côté */
 /* ------------------ DETAILS & LISTS ------------------ */
 details { margin-top: 15px; margin-bottom: 15px; border: 1px solid #e0e6eb; border-radius: 10px; }
 summary { 
-font-weight: bold; 
-cursor: pointer; 
-background-color: #f7f9fc; /* Fond clair pour le résumé */
-padding: 12px 15px; 
-border-radius: 10px;
-transition: background-color 0.2s;
+  font-weight: bold; 
+  cursor: pointer; 
+  background-color: #f7f9fc; /* Fond clair pour le résumé */
+  padding: 12px 15px; 
+  border-radius: 10px;
+  transition: background-color 0.2s;
 }
 summary:hover { background-color: #eef3f7; }
 ul { list-style-type: none; padding-left: 30px; margin-top: 10px; margin-bottom: 10px;}
@@ -148,32 +148,32 @@ li { margin: 8px 0; border-left: 3px solid #ddd; padding-left: 10px; }
 /* ------------------ TABS (Vue Piece/ZPSO) ------------------ */
 .tabs-local { display:flex; gap:12px; margin-bottom:20px; border-bottom: 2px solid #ddd; padding-bottom: 5px;}
 .tab-btn { 
-background: #f0f4f8; 
-color:#1c5d9a; 
-border:none; 
-border-radius:8px 8px 0 0; 
-padding:8px 15px; 
-cursor:pointer; 
-font-weight:600;
-border-bottom: 3px solid transparent;
-transition: background 0.3s, border-bottom 0.3s;
+  background: #f0f4f8; 
+  color:#1c5d9a; 
+  border:none; 
+  border-radius:8px 8px 0 0; 
+  padding:8px 15px; 
+  cursor:pointer; 
+  font-weight:600;
+  border-bottom: 3px solid transparent;
+  transition: background 0.3s, border-bottom 0.3s;
 }
 .tab-btn.active { 
-background:#1c5d9a; 
-color:white;
-border-bottom: 3px solid #ffcc00; /* Soulignement actif jaune/or */
+  background:#1c5d9a; 
+  color:white;
+  border-bottom: 3px solid #ffcc00; /* Soulignement actif jaune/or */
 }
 
 /* ------------------ RESULTAT TAGS (Pastilles) ------------------ */
 .resultat { 
-display: inline-block; 
-padding: 3px 10px; 
-border-radius: 15px; 
-font-size: 0.8em; 
-color: #fff; 
-font-weight: bold;
-margin-left: 8px; 
-text-transform: uppercase;
+  display: inline-block; 
+  padding: 3px 10px; 
+  border-radius: 15px; 
+  font-size: 0.8em; 
+  color: #fff; 
+  font-weight: bold;
+  margin-left: 8px; 
+  text-transform: uppercase;
 }
 .absent { background-color: #28a745; }
 .present { background-color: #dc3545; }
@@ -192,443 +192,416 @@ text-transform: uppercase;
         <img src="SiaHabitat_logo.png" alt="Logo LMH" class="logo-lmh">
     </div>
 
-<div class="upload-section" id="dropZone">
-<label for="fileInput">Déposez ici le fichier Excel de synthèse Amiante (.xlsx)</label><br>
-<input type="file" id="fileInput" accept=".xlsx"><br>
-<button id="generateBtn">Générer la synthèse</button>
-</div>
+    <div class="upload-section" id="dropZone">
+        <label for="fileInput">Déposez ici le fichier Excel de synthèse Amiante (.xlsx)</label><br>
+        <input type="file" id="fileInput" accept=".xlsx"><br>
+        <button id="generateBtn">Générer la synthèse</button>
+    </div>
 
-<div id="citySelection" class="navigation-container"></div>
-<div id="addressSelection" class="navigation-container" style="display:none;"></div>
-<div id="logementSelection" class="navigation-container" style="display:none;"></div>
+    <div id="citySelection" class="navigation-container"></div>
+    <div id="addressSelection" class="navigation-container" style="display:none;"></div>
+    <div id="logementSelection" class="navigation-container" style="display:none;"></div>
 
-<div id="resultContainer"></div>
+    <div id="resultContainer"></div>
 </div>
 
 <script>
-/* Global storage for grouped data */
+/* ------------------ ÉTAT GLOBAL ------------------ */
 let groupedData = {};
 
-/* -------- Drag & drop (unchanged) -------- */
+/* -------- Drag & drop -------- */
 const dropZone = document.getElementById('dropZone');
-dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.style.background = "#eaf6ff"; });
-dropZone.addEventListener('dragleave', e => { e.preventDefault(); dropZone.style.background = "#fff"; });
+dropZone.addEventListener('dragover', e => { 
+  e.preventDefault(); 
+  dropZone.style.background = "#eaf6ff"; 
+});
+dropZone.addEventListener('dragleave', e => { 
+  e.preventDefault(); 
+  dropZone.style.background = "#fff"; 
+});
 dropZone.addEventListener('drop', e => {
-e.preventDefault(); dropZone.style.background = "#fff";
-const files = e.dataTransfer.files;
-if (files.length) {
-document.getElementById('fileInput').files = files;
-document.getElementById('generateBtn').click();
-}
+  e.preventDefault(); 
+  dropZone.style.background = "#fff";
+  const files = e.dataTransfer.files;
+  if (files.length) {
+    document.getElementById('fileInput').files = files;
+    document.getElementById('generateBtn').click();
+  }
 });
 
-/* -------- Lecture du fichier Excel (unchanged) -------- */
+/* -------- Lecture du fichier Excel -------- */
 document.getElementById('generateBtn').addEventListener('click', () => {
-const fileInput = document.getElementById('fileInput');
-if (!fileInput.files.length) return alert('Merci de sélectionner un fichier Excel.');
-const reader = new FileReader();
-reader.onload = e => {
-const workbook = XLSX.read(new Uint8Array(e.target.result), { type: 'array' });
-const sheet = workbook.Sheets[workbook.SheetNames[0]];
-const data = XLSX.utils.sheet_to_json(sheet, { defval: '' });
-processDataAndSetupNavigation(data);
-};
-reader.readAsArrayBuffer(fileInput.files[0]);
+  const fileInput = document.getElementById('fileInput');
+  if (!fileInput.files.length) {
+    return alert('Merci de sélectionner un fichier Excel.');
+  }
+  const reader = new FileReader();
+  reader.onload = e => {
+    const workbook = XLSX.read(new Uint8Array(e.target.result), { type: 'array' });
+    const sheet = workbook.Sheets[workbook.SheetNames[0]];
+    const data = XLSX.utils.sheet_to_json(sheet, { defval: '' });
+    processDataAndSetupNavigation(data);
+  };
+  reader.readAsArrayBuffer(fileInput.files[0]);
 });
 
-/* -------- Nettoyage nom pièce (unchanged) -------- */
+/* -------- Nettoyage nom pièce (inchangé) -------- */
 function nettoyerNomPiece(nom) {
-if (!nom) return "Non précisé";
-return nom.split(";").map(seg => {
-seg = seg.trim();
-const idx = Math.max(seg.lastIndexOf(" - "), seg.lastIndexOf("-"));
-return idx !== -1 ? seg.slice(idx + (seg[idx] === " " ? 3 : 1)).trim() : seg;
-}).filter(Boolean).join("; ");
+  if (!nom) return "Non précisé";
+  return nom.split(";").map(seg => {
+    seg = seg.trim();
+    const idx = Math.max(seg.lastIndexOf(" - "), seg.lastIndexOf("-"));
+    return idx !== -1 ? seg.slice(idx + (seg[idx] === " " ? 3 : 1)).trim() : seg;
+  }).filter(Boolean).join("; ");
 }
 
-function extraireNumeroEtRue(adresse) {
-if (!adresse) return { numero: "?", rue: "Adresse non précisée" };
-const match = adresse.match(/^(\d+)\s+(.*)$/);
-if (!match) return { numero: "?", rue: adresse };
-return { numero: match[1], rue: match[2].trim() };
-}
-
-
-/* -------- Comptage par état (unchanged) -------- */
+/* -------- Comptage par état (inchangé) -------- */
 function compterEtats(rows) {
-const counts = { pos: 0, neg: 0, suspect: 0, nonTeste: 0 };
-rows.forEach(r => {
-const v = (r.resultat || '').toLowerCase();
-if (v.includes('présence') || v.includes('positif')) counts.pos++;
-else if (v.includes('absence') || v.includes('négatif')) counts.neg++;
-else if (v.includes('suspect') || v.includes('susceptible') || v.includes('à confirmer')) counts.suspect++;
-else counts.nonTeste++;
-});
-return counts;
+  const counts = { pos: 0, neg: 0, suspect: 0, nonTeste: 0 };
+  rows.forEach(r => {
+    const v = (r.resultat || '').toLowerCase();
+    if (v.includes('présence') || v.includes('positif')) counts.pos++;
+    else if (v.includes('absence') || v.includes('négatif')) counts.neg++;
+    else if (v.includes('suspect') || v.includes('susceptible') || v.includes('à confirmer')) counts.suspect++;
+    else counts.nonTeste++;
+  });
+  return counts;
 }
 
-/* -------- Détermination de l’état global pour un groupe (unchanged) -------- */
+/* -------- Détermination de l’état global pour un groupe (inchangé) -------- */
 function determinerEtatGroupe(rows) {
-const counts = compterEtats(rows);
-if (counts.pos > 0) return 'present';
-if (counts.suspect > 0) return 'suspect';
-return 'absent';
+  const counts = compterEtats(rows);
+  if (counts.pos > 0) return 'present';
+  if (counts.suspect > 0) return 'suspect';
+  return 'absent';
 }
 
-/* -------- Détermination de l’état global pour l'affichage (unchanged) -------- */
+/* -------- Détermination de l’état global pour l'affichage (inchangé) -------- */
 function determinerEtatGlobal(rows) {
-const counts = compterEtats(rows);
-let texte = "🟨 Investigation à prévoir";
-if (counts.pos > 0 && counts.suspect === 0) texte = "🟥 Présence d’amiante";
-else if (counts.neg > 0 && counts.pos === 0 && counts.suspect === 0) texte = "🟩 Absence d’amiante";
-else if (counts.pos > 0 && counts.suspect > 0) texte = "🟥 Présence d’amiante + 🟨 Investigation";
-else if (counts.neg > 0 && counts.suspect > 0 && counts.pos === 0) texte = "🟩 Absence d’amiante + 🟨 Investigation";
-return { texte, counts };
+  const counts = compterEtats(rows);
+  let texte = "🟨 Investigation à prévoir";
+  if (counts.pos > 0 && counts.suspect === 0) texte = "🟥 Présence d’amiante";
+  else if (counts.neg > 0 && counts.pos === 0 && counts.suspect === 0) texte = "🟩 Absence d’amiante";
+  else if (counts.pos > 0 && counts.suspect > 0) texte = "🟥 Présence d’amiante + 🟨 Investigation";
+  else if (counts.neg > 0 && counts.suspect > 0 && counts.pos === 0) texte = "🟩 Absence d’amiante + 🟨 Investigation";
+  return { texte, counts };
 }
 
-/* -------- Regroupement des données et initialisation de la navigation (unchanged) -------- */
+/* -------- Regroupement des données : Ville -> Patrimoine -> Logement -------- */
 function processDataAndSetupNavigation(data) {
-groupedData = {};
+  groupedData = {};
 
-// 1. Group by Ville (Commune)
-data.forEach(row => {
-const ville = row.Commune || 'Ville non précisée';
-const adresse = row.Nom_EI || 'Adresse non précisée';
-const logement = row.Num_UG || 'UG non précisée';
-const { numero, rue } = extraireNumeroEtRue(adresse);
+  data.forEach(row => {
+    const ville = row.Commune || 'Ville non précisée';
+    const numUGRaw = (row.Num_UG || '').toString().trim();
 
-if (!groupedData[ville]) groupedData[ville] = { rows: [], addresses: {}, rues: {} };
-groupedData[ville].rows.push(row);
+    if (!numUGRaw) {
+      // On ignore les lignes sans UG
+      return;
+    }
 
-/* Regroupement par adresse (structure d'origine, conservée) */
-if (!groupedData[ville].addresses[adresse]) groupedData[ville].addresses[adresse] = { rows: [], logements: {} };
-groupedData[ville].addresses[adresse].rows.push(row);
+    const parts = numUGRaw.split('-').map(p => p.trim()).filter(Boolean);
 
-if (!groupedData[ville].addresses[adresse].logements[logement]) groupedData[ville].addresses[adresse].logements[logement] = [];
-groupedData[ville].addresses[adresse].logements[logement].push(row);
+    let patrimoine = 'Patrimoine non précisé';
+    let logementId = numUGRaw;
 
-/* Nouveau regroupement par rue puis numéro */
-if (!groupedData[ville].rues[rue]) groupedData[ville].rues[rue] = { rows: [], numeros: {} };
-groupedData[ville].rues[rue].rows.push(row);
+    if (parts.length >= 2) {
+      patrimoine = parts.slice(0, 2).join('-');      // ex: 0B0250-C02
+      logementId = parts.slice(2).join('-') || 'Sans suffixe'; // ex: 01-02-001
+    }
 
-if (!groupedData[ville].rues[rue].numeros[numero]) groupedData[ville].rues[rue].numeros[numero] = { rows: [], logements: {} };
-groupedData[ville].rues[rue].numeros[numero].rows.push(row);
+    if (!groupedData[ville]) {
+      groupedData[ville] = { rows: [], patrimoines: {} };
+    }
+    groupedData[ville].rows.push(row);
 
-if (!groupedData[ville].rues[rue].numeros[numero].logements[logement]) groupedData[ville].rues[rue].numeros[numero].logements[logement] = [];
-groupedData[ville].rues[rue].numeros[numero].logements[logement].push(row);
-});
+    if (!groupedData[ville].patrimoines[patrimoine]) {
+      groupedData[ville].patrimoines[patrimoine] = { rows: [], logements: {} };
+    }
 
-// Reset display
-document.getElementById('resultContainer').innerHTML = '';
-document.getElementById('addressSelection').style.display = 'none';
-document.getElementById('logementSelection').style.display = 'none';
+    const patObj = groupedData[ville].patrimoines[patrimoine];
+    patObj.rows.push(row);
 
-// 2. Display City Buttons
-displayCityButtons();
+    if (!patObj.logements[logementId]) {
+      patObj.logements[logementId] = [];
+    }
+    patObj.logements[logementId].push(row);
+  });
+
+  // Reset display
+  document.getElementById('resultContainer').innerHTML = '';
+  document.getElementById('addressSelection').style.display = 'none';
+  document.getElementById('logementSelection').style.display = 'none';
+
+  // Boutons Ville
+  displayCityButtons();
 }
 
-/* -------- Affichage des boutons de Ville (unchanged) -------- */
+/* -------- Affichage des boutons de Ville -------- */
 function displayCityButtons() {
-const container = document.getElementById('citySelection');
-container.innerHTML = '<h3>🏙️ Choisissez une ville :</h3>';
-container.style.display = 'block';
+  const container = document.getElementById('citySelection');
+  container.innerHTML = '<h3>🏙️ Choisissez une ville :</h3>';
+  container.style.display = 'block';
 
-Object.keys(groupedData).forEach(ville => {
-const allCityRows = groupedData[ville].rows;
-const numAddresses = Object.keys(groupedData[ville].addresses).length; /* <-- COMPTE D'ENFANTS */
-const etatClass = determinerEtatGroupe(allCityRows);
+  Object.keys(groupedData).forEach(ville => {
+    const allCityRows = groupedData[ville].rows;
+    const numPatrimoines = Object.keys(groupedData[ville].patrimoines).length;
+    const etatClass = determinerEtatGroupe(allCityRows);
 
-const button = document.createElement('button');
-button.innerHTML = `<span class="status-pill ${etatClass}"></span>${ville} (${numAddresses})`;
-button.onclick = () => {
-container.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
-button.classList.add('active');
-displayRueButtons(ville);
-};
-container.appendChild(button);
-});
+    const button = document.createElement('button');
+    button.innerHTML = '<span class="status-pill ' + etatClass + '"></span>' + ville + ' (' + numPatrimoines + ' patrimoines)';
+    button.onclick = () => {
+      container.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+      displayPatrimoineButtons(ville);
+    };
+    container.appendChild(button);
+  });
 }
 
-function displayRueButtons(ville) {
-const container = document.getElementById('addressSelection');
-container.innerHTML = `<h3>📍 Rues à ${ville} :</h3>`;
-container.style.display = 'block';
+/* -------- Affichage des boutons de Patrimoines pour une ville -------- */
+function displayPatrimoineButtons(ville) {
+  const container = document.getElementById('addressSelection');
+  container.innerHTML = '<h3>🏛️ Patrimoines à ' + ville + ' :</h3>';
+  container.style.display = 'block';
 
-document.getElementById('logementSelection').innerHTML = '';
-document.getElementById('logementSelection').style.display = 'none';
-document.getElementById('resultContainer').innerHTML = '';
+  const logementContainer = document.getElementById('logementSelection');
+  logementContainer.innerHTML = '';
+  logementContainer.style.display = 'none';
 
-const rues = groupedData[ville].rues;
-Object.keys(rues).forEach(rue => {
-const allRows = rues[rue].rows;
-const nbNum = Object.keys(rues[rue].numeros).length;
-const etatClass = determinerEtatGroupe(allRows);
+  document.getElementById('resultContainer').innerHTML = '';
 
-const button = document.createElement('button');
-button.innerHTML = `<span class="status-pill ${etatClass}"></span>${rue} (${nbNum})`;
-button.onclick = () => {
-container.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
-button.classList.add('active');
-displayNumeroButtons(ville, rue);
-};
-container.appendChild(button);
-});
+  const patrimoines = groupedData[ville].patrimoines;
+
+  Object.keys(patrimoines).forEach(pat => {
+    const patObj = patrimoines[pat];
+    const nbLogements = Object.keys(patObj.logements).length;
+    const etatClass = determinerEtatGroupe(patObj.rows);
+
+    const button = document.createElement('button');
+    button.innerHTML = '<span class="status-pill ' + etatClass + '"></span>' + pat + ' (' + nbLogements + ' logements)';
+    button.onclick = () => {
+      container.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+      displayLogementButtons(ville, pat);
+    };
+    container.appendChild(button);
+  });
 }
 
-function displayNumeroButtons(ville, rue) {
-const container = document.getElementById('logementSelection');
-container.innerHTML = `<h3>🏠 Numéros – ${rue} (${ville}) :</h3>`;
-container.style.display = 'block';
+/* -------- Affichage des boutons de Logements pour un patrimoine -------- */
+function displayLogementButtons(ville, patrimoine) {
+  const container = document.getElementById('logementSelection');
+  container.innerHTML = '<h3>🏠 Logements pour le patrimoine ' + patrimoine + ' (' + ville + ') :</h3>';
+  container.style.display = 'block';
 
-document.getElementById('resultContainer').innerHTML = '';
+  document.getElementById('resultContainer').innerHTML = '';
 
-const numeros = groupedData[ville].rues[rue].numeros;
-Object.keys(numeros).forEach(numero => {
-const rowsNum = numeros[numero].rows;
-const logementsNum = numeros[numero].logements;
-const nbLog = Object.keys(logementsNum).length;
-const etatClass = determinerEtatGroupe(rowsNum);
+  const logements = groupedData[ville].patrimoines[patrimoine].logements;
 
-const button = document.createElement('button');
-button.innerHTML = `<span class="status-pill ${etatClass}"></span>${numero} (${nbLog})`;
-button.onclick = () => {
-container.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
-button.classList.add('active');
-displayLogementButtonsViaRue(ville, rue, numero);
-};
-container.appendChild(button);
-});
-}
+  Object.keys(logements).forEach(logementId => {
+    const rows = logements[logementId];
+    const etatClass = determinerEtatGroupe(rows);
 
-function displayLogementButtonsViaRue(ville, rue, numero) {
-const logements = groupedData[ville].rues[rue].numeros[numero].logements;
-const container = document.getElementById('resultContainer');
-container.innerHTML = '';
+    // 🔥 Nouveau comptage : nombre de ZPSO uniques
+    const uniqueZPSO = new Set(
+        rows
+          .map(r => (r.applicabilite_ZPSO || '').trim())
+          .filter(z => z !== '')
+    ).size;
 
-const keys = Object.keys(logements);
-if (keys.length === 0) return;
+    const button = document.createElement('button');
+    button.innerHTML =
+      '<span class="status-pill ' + etatClass + '"></span>' +
+      logementId + ' (' + uniqueZPSO + ' ZPSO)';
 
-const navDiv = document.createElement('div');
-navDiv.className = 'navigation-container';
-navDiv.innerHTML = '<h3>🏠 Logements (UG) pour le ' + numero + ' ' + rue + ' :</h3>';
-container.appendChild(navDiv);
+    button.onclick = () => {
+      container.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+      generateHTML(rows);
+    };
 
-keys.forEach(logKey => {
-const rows = logements[logKey];
-const etatClass = determinerEtatGroupe(rows);
-const btn = document.createElement('button');
-btn.innerHTML = `<span class="status-pill ${etatClass}"></span>${logKey}`;
-btn.onclick = () => {
-Array.from(navDiv.querySelectorAll('button')).forEach(b => b.classList.remove('active'));
-btn.classList.add('active');
-generateHTML(rows);
-};
-navDiv.appendChild(btn);
-});
+    container.appendChild(button);
+  });
 
-// auto-sélection du premier logement
-generateHTML(logements[keys[0]]);
+  const firstKey = Object.keys(logements)[0];
+  if (firstKey) generateHTML(logements[firstKey]);
 }
 
 
-/* -------- Affichage des boutons d'Adresse (Nom_EI) (unchanged) -------- */
-function displayAddressButtons(ville) {
-const container = document.getElementById('addressSelection');
-container.innerHTML = `<h3>📍 Adresses à ${ville} :</h3>`;
-container.style.display = 'block';
-
-document.getElementById('logementSelection').innerHTML = '';
-document.getElementById('logementSelection').style.display = 'none';
-document.getElementById('resultContainer').innerHTML = '';
-
-const addresses = groupedData[ville].addresses;
-Object.keys(addresses).forEach(adresse => {
-const allAddressRows = addresses[adresse].rows;
-const numLogements = Object.keys(addresses[adresse].logements).length; /* <-- COMPTE D'ENFANTS */
-const etatClass = determinerEtatGroupe(allAddressRows);
-
-const button = document.createElement('button');
-button.innerHTML = `<span class="status-pill ${etatClass}"></span>${adresse} (${numLogements})`;
-button.onclick = () => {
-container.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
-button.classList.add('active');
-displayLogementButtons(ville, adresse);
-};
-container.appendChild(button);
-});
-}
-
-/* -------- Affichage des boutons de Logement (Num_UG) (unchanged) -------- */
-function displayLogementButtons(ville, adresse) {
-const container = document.getElementById('logementSelection');
-container.innerHTML = `<h3>🏠 Logements pour ${adresse} (${ville}) :</h3>`;
-container.style.display = 'block';
-
-document.getElementById('resultContainer').innerHTML = '';
-
-const logements = groupedData[ville].addresses[adresse].logements;
-Object.keys(logements).forEach(logementKey => {
-const allLogementRows = logements[logementKey];
-const numComposants = allLogementRows.length; /* <-- COMPTE D'ENFANTS */
-const etatClass = determinerEtatGroupe(allLogementRows);
-
-const button = document.createElement('button');
-button.innerHTML = `<span class="status-pill ${etatClass}"></span>${logementKey} (${numComposants} composants)`;
-button.onclick = () => {
-container.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
-button.classList.add('active');
-generateHTML(allLogementRows);
-};
-container.appendChild(button);
-});
-}
-
-
-/* -------- Génération HTML (unchanged) -------- */
+/* -------- Génération HTML (inchangé, sauf légers textes) -------- */
 function generateHTML(data) {
-const container = document.getElementById('resultContainer');
-container.innerHTML = '';
+  const container = document.getElementById('resultContainer');
+  container.innerHTML = '';
 
-// Data for a single logement (Num_UG)
-const nom = data[0].Nom_EI || 'Adresse non précisée';
-const numUG = data[0].Num_UG || 'Non précisé';
-const rows = data; 
+  // Data for a single logement (Num_UG)
+  const nom = data[0].Nom_EI || 'Adresse non précisée';
+  const numUG = data[0].Num_UG || 'Non précisé';
+  const rows = data; 
 
-const commune = rows[0].Commune || '';
-const date = rows[0].date_realisation || '';
-const operateur = rows[0].operateur || '';
-const rapport = rows[0].reference_rapport || '';
-const etage = rows[0].Etage || 'Non précisé';
+  const commune = rows[0].Commune || '';
+  const date = rows[0].date_realisation || '';
+  const operateur = rows[0].operateur || '';
+  const rapport = rows[0].reference_rapport || '';
+  const etage = rows[0].Etage || 'Non précisé';
 
-const etatGlobal = determinerEtatGlobal(rows);
-const zones = [...new Set(rows.map(r => nettoyerNomPiece(r.applicabilite_ZPSO)).filter(Boolean))];
-const prelevements = [...new Set(rows.map(r => r.num_prelevement).filter(p => p && p.trim() !== ''))];
-const rowsAvecPrel = rows.filter(r => r.num_prelevement && r.num_prelevement.trim() !== '');
-const countsPrel = compterEtats(rowsAvecPrel);
+  const etatGlobal = determinerEtatGlobal(rows);
+  const zones = [...new Set(rows.map(r => nettoyerNomPiece(r.applicabilite_ZPSO)).filter(Boolean))];
+  const prelevements = [...new Set(rows.map(r => r.num_prelevement).filter(p => p && p.trim() !== ''))];
+  const rowsAvecPrel = rows.filter(r => r.num_prelevement && r.num_prelevement.trim() !== '');
+  const countsPrel = compterEtats(rowsAvecPrel);
 
-const logementDiv = document.createElement('div');
-logementDiv.className = 'logement';
-logementDiv.innerHTML = `
-<h2>🏠 Logement ${numUG} - ${nom} (${commune})</h2>
-<div class="infos">
-📅 Diagnostiqué le <strong>${date}</strong> par <strong>${operateur}</strong><br>
-📄 Rapport : <strong>${rapport}</strong><br>
-🧱 Étage : <strong>${etage}</strong><br><br>
-🧮 <strong>Statut global :</strong> ${etatGlobal.texte}<br><br>
-<strong>Nombre de zones : ${zones.length}</strong><br>
-<div class="compteurs">
-🟥 Présence : ${etatGlobal.counts.pos} |
-🟩 Absence : ${etatGlobal.counts.neg} |
-🟨 Suspect : ${etatGlobal.counts.suspect}
-</div><br>
-<strong>Nombre de prélèvements : ${prelevements.length}</strong><br>
-<div class="compteurs">
-🟥 Présence : ${countsPrel.pos} |
-🟩 Absence : ${countsPrel.neg}
-</div>
-</div>
-`;
+  const logementDiv = document.createElement('div');
+  logementDiv.className = 'logement';
+  logementDiv.innerHTML = `
+    <h2>🏠 Logement ${numUG} - ${nom} (${commune})</h2>
+    <div class="infos">
+      📅 Diagnostiqué le <strong>${date}</strong> par <strong>${operateur}</strong><br>
+      📄 Rapport : <strong>${rapport}</strong><br>
+      🧱 Étage : <strong>${etage}</strong><br><br>
+      🧮 <strong>Statut global :</strong> ${etatGlobal.texte}<br><br>
+      <strong>Nombre de zones : ${zones.length}</strong><br>
+      <div class="compteurs">
+        🟥 Présence : ${etatGlobal.counts.pos} |
+        🟩 Absence : ${etatGlobal.counts.neg} |
+        🟨 Suspect : ${etatGlobal.counts.suspect}
+      </div><br>
+      <strong>Nombre de prélèvements : ${prelevements.length}</strong><br>
+      <div class="compteurs">
+        🟥 Présence : ${countsPrel.pos} |
+        🟩 Absence : ${countsPrel.neg}
+      </div>
+    </div>
+  `;
 
-/* Onglets */
-const tabs = document.createElement('div');
-tabs.className = 'tabs-local';
-const btnPiece = document.createElement('button');
-const btnZPSO = document.createElement('button');
-btnPiece.textContent = 'Vue par pièce';
-btnZPSO.textContent = 'Vue par ZPSO';
-btnPiece.className = 'tab-btn active';
-tabs.appendChild(btnPiece); tabs.appendChild(btnZPSO);
-logementDiv.appendChild(tabs);
+  /* Onglets */
+  const tabs = document.createElement('div');
+  tabs.className = 'tabs-local';
+  const btnPiece = document.createElement('button');
+  const btnZPSO = document.createElement('button');
+  btnPiece.textContent = 'Vue par pièce';
+  btnZPSO.textContent = 'Vue par ZPSO';
+  btnPiece.className = 'tab-btn active';
+  btnZPSO.className = 'tab-btn';
+  tabs.appendChild(btnPiece); 
+  tabs.appendChild(btnZPSO);
+  logementDiv.appendChild(tabs);
 
-const contentDiv = document.createElement('div');
-logementDiv.appendChild(contentDiv);
+  const contentDiv = document.createElement('div');
+  logementDiv.appendChild(contentDiv);
 
-/* Vue par pièce */
-const groupedByPiece = {}, orderPieces = [];
-rows.forEach(r => {
-const cleaned = nettoyerNomPiece(r.Local_visite || 'Non précisé').split(';').map(s => s.trim()).filter(Boolean);
-cleaned.forEach(piece => {
-if (!groupedByPiece[piece]) { groupedByPiece[piece] = []; orderPieces.push(piece); }
-groupedByPiece[piece].push(r);
-});
-});
+  /* Vue par pièce */
+  const groupedByPiece = {}, orderPieces = [];
+  rows.forEach(r => {
+    const cleanedArr = nettoyerNomPiece(r.Local_visite || 'Non précisé')
+      .split(';')
+      .map(s => s.trim())
+      .filter(Boolean);
+    cleanedArr.forEach(piece => {
+      if (!groupedByPiece[piece]) { 
+        groupedByPiece[piece] = []; 
+        orderPieces.push(piece); 
+      }
+      groupedByPiece[piece].push(r);
+    });
+  });
 
-const renderVuePiece = () => {
-contentDiv.innerHTML = '';
-orderPieces.forEach(piece => {
-const composants = groupedByPiece[piece];
-const details = document.createElement('details');
-const results = composants.map(c => (c.resultat || '').toLowerCase());
-let icon = '⚪', etatClass = 'non_teste';
-if (results.some(r => r.includes('présence'))) { icon = '🟥'; etatClass = 'present'; }
-else if (results.some(r => r.includes('suspect'))) { icon = '🟨'; etatClass = 'suspect'; }
-else if (results.every(r => r.includes('absence'))) { icon = '🟩'; etatClass = 'absent'; }
-const summary = document.createElement('summary');
-summary.innerHTML = `${icon} Pièce : ${piece} <span class="resultat ${etatClass}" style="margin-left:8px;">${etatClass}</span>`;
-const ul = document.createElement('ul');
-composants.forEach(c => {
-const res = c.resultat || '';
-const resClass = res.toLowerCase().includes('présence') ? 'present' :
-res.toLowerCase().includes('absence') ? 'absent' :
-res.toLowerCase().includes('suspect') ? 'suspect' : 'non_teste';
-const li = document.createElement('li');
-li.innerHTML = `- ${c.materiau_produit}
-<span class="resultat ${resClass}">${res}</span>
-<ul class="niveau3"><li>• ZPSO : ${c.applicabilite_ZPSO || 'Non précisé'}
-<ul class="niveau4"><li>◦ Prélèvements : ${c.num_prelevement || 'Aucun'}</li></ul></li></ul>`;
-ul.appendChild(li);
-});
-details.appendChild(summary); details.appendChild(ul);
-contentDiv.appendChild(details);
-});
-};
+  const renderVuePiece = () => {
+    contentDiv.innerHTML = '';
+    orderPieces.forEach(piece => {
+      const composants = groupedByPiece[piece];
+      const details = document.createElement('details');
+      const results = composants.map(c => (c.resultat || '').toLowerCase());
+      let icon = '⚪', etatClass = 'non_teste';
+      if (results.some(r => r.includes('présence'))) { icon = '🟥'; etatClass = 'present'; }
+      else if (results.some(r => r.includes('suspect'))) { icon = '🟨'; etatClass = 'suspect'; }
+      else if (results.every(r => r.includes('absence'))) { icon = '🟩'; etatClass = 'absent'; }
+      const summary = document.createElement('summary');
+      summary.innerHTML = `${icon} Pièce : ${piece} <span class="resultat ${etatClass}" style="margin-left:8px;">${etatClass}</span>`;
+      const ul = document.createElement('ul');
+      composants.forEach(c => {
+        const res = c.resultat || '';
+        const resClass = res.toLowerCase().includes('présence') ? 'present' :
+                         res.toLowerCase().includes('absence') ? 'absent' :
+                         res.toLowerCase().includes('suspect') ? 'suspect' : 'non_teste';
+        const li = document.createElement('li');
+        li.innerHTML = `- ${c.materiau_produit}
+          <span class="resultat ${resClass}">${res}</span>
+          <ul class="niveau3"><li>• ZPSO : ${c.applicabilite_ZPSO || 'Non précisé'}
+          <ul class="niveau4"><li>◦ Prélèvements : ${c.num_prelevement || 'Aucun'}</li></ul></li></ul>`;
+        ul.appendChild(li);
+      });
+      details.appendChild(summary); 
+      details.appendChild(ul);
+      contentDiv.appendChild(details);
+    });
+  };
 
-/* Vue par ZPSO */
-const groupedByZPSO = {}, orderZPSO = [];
-rows.forEach(r => {
-const cleaned = nettoyerNomPiece(r.applicabilite_ZPSO || 'Non précisé').split(';').map(s => s.trim()).filter(Boolean);
-cleaned.forEach(z => { if (!groupedByZPSO[z]) { groupedByZPSO[z] = []; orderZPSO.push(z); } groupedByZPSO[z].push(r); });
-});
+  /* Vue par ZPSO */
+  const groupedByZPSO = {}, orderZPSO = [];
+  rows.forEach(r => {
+    const cleanedArr = nettoyerNomPiece(r.applicabilite_ZPSO || 'Non précisé')
+      .split(';')
+      .map(s => s.trim())
+      .filter(Boolean);
+    cleanedArr.forEach(z => { 
+      if (!groupedByZPSO[z]) { 
+        groupedByZPSO[z] = []; 
+        orderZPSO.push(z); 
+      } 
+      groupedByZPSO[z].push(r); 
+    });
+  });
 
-const renderVueZPSO = () => {
-contentDiv.innerHTML = '';
-orderZPSO.forEach(zpso => {
-const composants = groupedByZPSO[zpso];
-const etats = composants.map(c => {
-const v = (c.resultat || '').toLowerCase();
-if (v.includes('présence')) return 'present';
-if (v.includes('absence')) return 'absent';
-if (v.includes('suspect')) return 'suspect';
-return 'non_teste';
-});
-const uniqueEtats = [...new Set(etats)];
-const pastilles = uniqueEtats.map(e => `<span class="resultat ${e}">${e}</span>`).join(' ');
-const composantNom = composants[0].materiau_produit || 'Non précisé';
-const summary = document.createElement('summary');
-summary.innerHTML = `▪ ZPSO : ${zpso} — ${composantNom} ${pastilles}`;
-const ul = document.createElement('ul');
-composants.forEach(c => {
-const res = c.resultat || '';
-const resClass = res.toLowerCase().includes('présence') ? 'present' :
-res.toLowerCase().includes('absence') ? 'absent' :
-res.toLowerCase().includes('suspect') ? 'suspect' : 'non_teste';
-const li = document.createElement('li');
-li.innerHTML = `- ${c.materiau_produit} (${nettoyerNomPiece(c.Local_visite)})
-<span class="resultat ${resClass}">${res}</span>
-<ul class="niveau3"><li>• Prélèvements : ${c.num_prelevement || 'Aucun'}</li></ul>`;
-ul.appendChild(li);
-});
-const details = document.createElement('details');
-details.appendChild(summary); details.appendChild(ul);
-contentDiv.appendChild(details);
-});
-};
+  const renderVueZPSO = () => {
+    contentDiv.innerHTML = '';
+    orderZPSO.forEach(zpso => {
+      const composants = groupedByZPSO[zpso];
+      const etats = composants.map(c => {
+        const v = (c.resultat || '').toLowerCase();
+        if (v.includes('présence')) return 'present';
+        if (v.includes('absence')) return 'absent';
+        if (v.includes('suspect')) return 'suspect';
+        return 'non_teste';
+      });
+      const uniqueEtats = [...new Set(etats)];
+      const pastilles = uniqueEtats.map(e => `<span class="resultat ${e}">${e}</span>`).join(' ');
+      const composantNom = composants[0].materiau_produit || 'Non précisé';
+      const summary = document.createElement('summary');
+      summary.innerHTML = `▪ ZPSO : ${zpso} — ${composantNom} ${pastilles}`;
+      const ul = document.createElement('ul');
+      composants.forEach(c => {
+        const res = c.resultat || '';
+        const resClass = res.toLowerCase().includes('présence') ? 'present' :
+                         res.toLowerCase().includes('absence') ? 'absent' :
+                         res.toLowerCase().includes('suspect') ? 'suspect' : 'non_teste';
+        const li = document.createElement('li');
+        li.innerHTML = `- ${c.materiau_produit} (${nettoyerNomPiece(c.Local_visite)})
+          <span class="resultat ${resClass}">${res}</span>
+          <ul class="niveau3"><li>• Prélèvements : ${c.num_prelevement || 'Aucun'}</li></ul>`;
+        ul.appendChild(li);
+      });
+      const details = document.createElement('details');
+      details.appendChild(summary); 
+      details.appendChild(ul);
+      contentDiv.appendChild(details);
+    });
+  };
 
-btnPiece.onclick = () => { btnPiece.classList.add('active'); btnZPSO.classList.remove('active'); renderVuePiece(); };
-btnZPSO.onclick = () => { btnZPSO.classList.add('active'); btnPiece.classList.remove('active'); renderVueZPSO(); };
+  btnPiece.onclick = () => { 
+    btnPiece.classList.add('active'); 
+    btnZPSO.classList.remove('active'); 
+    renderVuePiece(); 
+  };
+  btnZPSO.onclick = () => { 
+    btnZPSO.classList.add('active'); 
+    btnPiece.classList.remove('active'); 
+    renderVueZPSO(); 
+  };
 
-renderVuePiece();
-container.appendChild(logementDiv);
+  // Vue par défaut
+  renderVuePiece();
+  container.appendChild(logementDiv);
 }
 </script>
 </body>
